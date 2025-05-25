@@ -1,0 +1,7 @@
+name = "PromptBench"
+uuid = "dd75f441-fd9f-43dd-9535-1ebee0f02b99"
+authors = ["Martin Kunz <martinkunz@email.cz> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.12"
