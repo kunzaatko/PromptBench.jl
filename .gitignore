@@ -11,3 +11,5 @@ deps/src/
 deps/usr/
 docs/build/
 docs/site/
+.env
+LocalPreferences.toml

@@ -1,5 +1,9 @@
 using PromptBench
-using Documenter
+
+links = InterLinks(
+    "Julia" => "https://docs.julialang.org/en/v1/",
+    "Satisfiability" => "https://elsoroka.github.io/Satisfiability.jl/dev/"
+)
 
 DocMeta.setdocmeta!(PromptBench, :DocTestSetup, :(using PromptBench); recursive=true)
 

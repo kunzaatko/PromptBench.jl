@@ -1,0 +1,16 @@
+{% if hasrole %}
+You are an expert puzzle solver. {# todo #}
+{% end %}
+{% if hasexamples %}
+These are some examples: {# todo #}    
+{% end %}
+{% if hasstrategy %}
+{% end %}
+{% if hasterminology %}
+{% end %}
+{% if haschainofthought %} {# NOTE: should not be used with a chain of thought model #}
+{% end %}
+
+
+Solve this puzzle:
+{{ puzzle }}
