@@ -94,10 +94,11 @@ function Base.show(io::IO, t::TrialSettings)
             ),
         );
         alignment=:c,
-        hlines=:all,
-        vlines=[0, :end],
-        header_crayon=crayon"yellow bold",
-        show_subheader=false,
+        table_format=TextTableFormat(;
+            vertical_lines_at_data_columns=:none, horizontal_lines_at_data_rows=:all
+        ),
+        style=TextTableStyle(; first_line_column_label=crayon"yellow bold"),
+        # show_subheader=false, FIX: Must be solved by defining the labels of the pretty-table <24-10-25> 
     )
 end
 
